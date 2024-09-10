@@ -1,0 +1,161 @@
+/*{
+    outline: 2px solid red;
+}*/
+
+body{
+    background-color: #f5f1f1;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.first{
+    background-color: #9e0808;
+    color: #f5f1f1;
+    display: flex;
+    flex-direction: column;
+}
+
+.second{
+    background-color: #f5f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 1%;
+}
+
+.third{
+    background-color: #be5353;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+.footer{
+    background-color: #580707;
+    display: flex;
+    flex-direction: column;
+    color: #ebe1e1;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+    font-size: 12px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: end;
+    margin: 1%;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin: 1%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    margin: 5%;
+}
+
+.topleft{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 5px;
+}
+
+h1{
+    margin: 0;
+}
+
+button{
+    width: 100px;
+    background-color: #790404;
+    color: #f5f1f1;
+    border-radius: 8px;
+    
+}
+
+.text{
+    font-size: 14px;
+    color: #ebe1e1;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+    gap: 5px;
+}
+
+.img{
+   height: 150px;
+   width: 150px;
+}
+
+.quote{
+    font-style: italic;
+    text-align: center;
+}
+
+.author{
+    font-weight: bold;
+    text-align: end;
+}
+
+.more{
+    width: 500px;
+}
+
+.action{
+    background-color: #c40c0c;
+    border-radius: 8px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    padding: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 30px;
+    
+}
+
+.Call{
+    display: flex;
+    flex-direction: column;
+}
+
+.actionh1{
+    font-size: 20px;
+    margin: 0;
+    color: #ebe1e1;
+}
+
+p{
+    margin: 0;
+    font-size: 15px;
+    color:#ebe1e1;
+}
